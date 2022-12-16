@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0e8ff;
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+body > main > .card {
+  border: none;
+  background-color: #ffffff;
+  border-radius: 20px 20px 20px 20px;
+}
+body > main > .card > .card-img > img {
+  max-width: 400px;
+  border-radius: 20px 20px 0 0;
+}
+body > main > .card > .card-body {
+  max-width: 400px;
+  padding: 3em;
+}
+body > main > .card > .card-body > h3 {
+  font-weight: 900;
+  color: #152b4e;
+  text-align: center;
+  margin-bottom: 15px;
+}
+body > main > .card > .card-body > p {
+  text-align: center;
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 500;
+}
+body > main > .card > .card-body > .music-section {
+  width: 100%;
+  margin: 0;
+  background-color: #f8f9fe;
+  border-radius: 10px;
+  padding: 24px 8px;
+  margin: 25px 0;
+}
+body > main > .card > .card-body > .music-section > :nth-child(2) > .span1 {
+  color: #222a4a;
+  font-weight: 900;
+}
+body > main > .card > .card-body > .music-section > :nth-child(2) > .span2 {
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 500;
+}
+body > main > .card > .card-body > .music-section > :nth-child(3) {
+  align-items: center;
+  display: flex;
+  justify-content: end;
+}
+body > main > .card > .card-body > .music-section > :nth-child(3) > a {
+  color: #342d9b !important;
+  font-weight: 900;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+body > main > .card > .card-body > .music-section > :nth-child(3) > a:hover {
+  color: #857de1 !important;
+  text-decoration: none;
+}
+body > main > .card > .card-body > .button1 {
+  width: 100%;
+  background: #382ae1;
+  color: hsl(225deg, 100%, 98%);
+  text-decoration: none;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow: 0 10px 20px rgba(56, 41, 224, 0.3);
+  transition: 0.5s ease-in-out;
+}
+body > main > .card > .card-body > .button1:hover {
+  background: #766cf1;
+}
+body > main > .card > .card-body > .button2 {
+  width: 100%;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  margin: 25px 0 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(224deg, 23%, 55%);
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+body > main > .card > .card-body > .button2:hover {
+  color: #131e39;
+}
+
+@media only screen and (max-width: 577px) {
+  body {
+    background-color: #e0e8ff;
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Red Hat Display", sans-serif;
+  }
+  body > main > .card {
+    border: none;
+    background-color: #ffffff;
+    border-radius: 20px 20px 20px 20px;
+  }
+  body > main > .card > .card-img > img {
+    max-width: 350px;
+    border-radius: 20px 20px 0 0;
+  }
+  body > main > .card > .card-body {
+    max-width: 350px;
+    padding: 2em;
+  }
+  body > main > .card > .card-body > h3 {
+    font-weight: 900;
+    color: #152b4e;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  body > main > .card > .card-body > p {
+    text-align: center;
+    color: hsl(224deg, 23%, 55%);
+    font-weight: 500;
+    font-size: 14px;
+  }
+  body > main > .card > .card-body > .music-section {
+    width: 100%;
+    margin: 0;
+    background-color: #f8f9fe;
+    border-radius: 10px;
+    padding: 24px 8px;
+    margin: 25px 0;
+  }
+  body > main > .card > .card-body > .music-section > :nth-child(2) > .span1 {
+    color: #222a4a;
+    font-weight: 900;
+  }
+  body > main > .card > .card-body > .music-section > :nth-child(2) > .span2 {
+    color: hsl(224deg, 23%, 55%);
+    font-weight: 500;
+  }
+  body > main > .card > .card-body > .music-section > :nth-child(3) {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+  }
+  body > main > .card > .card-body > .music-section > :nth-child(3) > a {
+    color: #342d9b !important;
+    font-weight: 900;
+    font-size: 14px;
+  }
+  body > main > .card > .card-body > .button1 {
+    width: 100%;
+    background: #382ae1;
+    color: hsl(225deg, 100%, 98%);
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: 0 10px 20px rgba(56, 41, 224, 0.3);
+  }
+  body > main > .card > .card-body > .button2 {
+    width: 100%;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    margin: 25px 0 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(224deg, 23%, 55%);
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=style.css.map */
